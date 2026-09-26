@@ -23,7 +23,7 @@ export type InvokeResult = {
 };
 
 // Free-tier model. See https://ai.google.dev/gemini-api/docs/pricing
-const DEFAULT_MODEL = "gemini-2.5-flash";
+const DEFAULT_MODEL = "gemini-3.8-flash";
 
 const RETRY_MAX_RETRIES = 3;
 const RETRY_BASE_DELAY_MS = 500;
